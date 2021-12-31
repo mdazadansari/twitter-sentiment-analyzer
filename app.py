@@ -5,7 +5,6 @@ from streamlit.elements import layouts
 import preprocessing
 import tweepy
 from tweepy import OAuthHandler
-import pickle5
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import seaborn as sns
