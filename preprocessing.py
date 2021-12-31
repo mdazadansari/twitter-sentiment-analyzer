@@ -19,6 +19,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 stop_words = {"i", "me", "my", "myself", "we", "our", "ours", "ourselves",
              "you", "your", "yours", "yourself", "yourselves", "he", "him",
