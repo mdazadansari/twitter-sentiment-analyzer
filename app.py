@@ -12,7 +12,7 @@ import seaborn as sns
 
 st.set_page_config(page_title="Twitter Sentiment Analyzer", layout="wide", )
 st.title("Welcome To Twitter Sentiment Analyzer")
-st.text("Analysis is done by Logistic Regression Classifier which gave accuracy = 80.8975%.")
+#st.text("Analysis is done by Logistic Regression Classifier which gave accuracy = 80.8975%.")
 st.sidebar.title("Twitter Sentiment Analyzer")
 with st.sidebar:
     with st.form(key="form1"):
